@@ -1,0 +1,26 @@
+/*variables*/
+@import 'variables';
+@import 'images';
+@import 'nav';
+@import 'cssReset';
+@import 'icons';
+@import 'textEdit';
+@import 'mixin';
+@import 'buttons';
+
+
+body{
+  background: $backColor;
+  color: $fontColor;
+}
+h1{
+  padding: $padding;
+  margin:10*$margin;
+  margin:$marginAuto;
+  display:$blockDisplay;
+  text-align:$centerAlign;
+}
+
+ul{
+  @extend .para1;
+}

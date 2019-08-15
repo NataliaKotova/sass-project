@@ -1,0 +1,22 @@
+nav{
+  padding:3*$padding;
+  border:2px solid $borderColor;
+  width:$width;
+  z-index:3;
+  display:none;
+  position: fixed;
+  top:0px;
+  left:0px;
+  ul{
+    li{
+      padding:$padding;
+    }
+    a{
+      color:$fontColor;
+    }
+  }
+}
+.active{
+  display:block;
+  
+}

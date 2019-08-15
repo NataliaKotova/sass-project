@@ -1,0 +1,26 @@
+
+.container{
+  // display: block;
+  // margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.container2{
+  @extend .container;
+}
+.para1{
+  margin-left:2*$margin;
+  padding: 3*$padding;
+  width: 30%;
+  // float:left;
+}
+
+.para2{
+  @extend .para1;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
